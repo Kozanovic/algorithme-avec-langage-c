@@ -1,0 +1,23 @@
+Déclaration
+
+             Var a, p, v: entier
+
+DÉBUT
+ 
+          Ecrire ("saisir un nombre :")
+
+           Lire (a)
+ 
+          V<--1
+
+      Répéter
+ 
+	       a<--p*v
+
+               Écrire (p"*"v" ="a)
+
+               V<--v+1
+
+      Tq(v<11)
+
+FIN

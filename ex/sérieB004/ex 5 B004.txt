@@ -1,0 +1,23 @@
+Déclaration
+ 
+          Var a, c:entier
+ 
+DÉBUT
+ 
+          Ecrire ("saisir un nombre" )
+
+           Lire (a)
+ 
+          c<--0
+
+         Répéter
+ 
+            a <--a+1
+
+             c <--c+1
+
+         Tq (c<10)
+
+              Ecrire ("les résultats sont :b")
+
+FIN

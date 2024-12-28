@@ -1,0 +1,12 @@
+déclaration
+	var x,tab[10],s,m:entier
+DEBUT
+	pour x<--0 jusqu'à 9 faire
+		ecrire("saisir une valeur tab[x]:")
+		lire(tab[x])
+		s<--s+tab[x]
+	fpour
+		m=s/10
+	ecrire(la somme des valeurs est ",s)
+	ecrire(la moyenne des valeurs est ",m)
+FIN

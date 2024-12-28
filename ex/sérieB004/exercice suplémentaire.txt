@@ -1,0 +1,17 @@
+déclaration 
+	variables n,a,v,c:entier
+DEBUT
+	ecrire("saisir un nombre")
+	lire(n)
+		pour a<--1 à n faire
+			pour v<--1 à a faire
+			   si (a mod v=0)
+			     c<--c+1
+			   fsi
+			fpour
+			si(c<=2)alors
+			   ecrire("ce nombre est premier",v)
+			fsi
+		fpour
+FIN
+

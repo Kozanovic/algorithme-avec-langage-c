@@ -1,0 +1,26 @@
+déclaration
+		var tab[10],i,max,min,p1,p2:entier
+DEBUT
+		ecrire("saisir un nomnbre")
+		lire(tab[i])
+			max=tab[0];
+			min=tab[0];
+			p1=i;
+			p2=i;
+	pour i <-- 0jusqu'à 9 faire
+		ecrire("saisir un nomnbre")
+		lire(tab[i])
+	si(max<tab[i])alors
+		max<-- tab[i]
+		p1<-- i+1
+	fsi
+	si(min>=tab[i])alors
+		min<-- tab[i]
+		p2<-- i+1
+	fsi
+	fpour
+		ecrire(max)
+		ecrire(p1)
+		ecrire(min)
+		ecrire(p2)
+FIN

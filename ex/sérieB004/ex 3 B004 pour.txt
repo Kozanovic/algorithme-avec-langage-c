@@ -1,0 +1,20 @@
+Déclaration
+
+          Var a, b, fact :entier 
+
+DÉBUT
+ 
+         Écrire ("saisir un nombre ")
+
+          Lire ("a")
+
+          fact <--1
+	pour fact<--1 à a pas 1 faire
+
+        fact<--fact*b
+
+        fact <--fact+1
+ 
+             Écrire("la factorielle est b" )
+
+FIN

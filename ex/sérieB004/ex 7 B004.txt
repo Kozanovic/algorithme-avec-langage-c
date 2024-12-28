@@ -1,0 +1,27 @@
+Déclaration
+ 
+            Var a, b, m:entier
+
+DÉBUT
+ 
+            Ecrire ("saisir un nombre")
+ 
+            Lire (a)
+ 
+            b<--a
+
+             m<--0
+
+       Répéter
+ 
+                  b<--b+a
+
+                   m<--m+1
+ 
+       Tq (a<>0)
+
+                   b<--b/m
+
+              Ecrire (b)
+
+FIN

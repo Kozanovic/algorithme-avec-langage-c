@@ -1,0 +1,27 @@
+Déclaration
+
+          Var a, b, fact =1:entier 
+
+DÉBUT
+ 
+         Écrire ("saisir un nombre ")
+
+          Lire ("a")
+
+          b<--a
+
+      Si(a>0) alors
+ 
+       Tant que (fact < >0)
+
+        b <--b*fact
+
+        fact <--fact+1
+
+        FTQ
+
+        Fsi
+ 
+             Écrire("la factorielle est b" )
+
+FIN

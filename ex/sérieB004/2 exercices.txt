@@ -1,0 +1,46 @@
+ecrire un algorithme qui permet de calculer le nombre des valeurs 
+paires et le nombre des valeurs impairs parmis 
+les valeurs saisie par l'utilisateur
+la saisie fini par la valeur 0.
+solution:
+Déclaration 
+         variables a,np,nip,mod:entier
+DEBUT
+         ecrire("saisir un nombre")
+         lire(a)
+         np<--0
+         nip<--0
+      répéter
+            ecrire("saisir un nombre")
+            lire(a)
+		si(a mod 2=0) alors
+                  np<--np+1
+		sinon
+		  nip<--nip+1
+		fsi
+      tq(a<>0)
+	ecrire(np,nip)
+FIN 
+
+
+Écrire un algorithme qui vérifie si un nombre entier saisi par
+l’utilisateur est un nombre premier ou pas.
+solution:
+Déclaration 
+         varibles n,a,mod,cd:entier
+DEBUT
+	 ecrire("saisir un nombre")
+         lire(n)
+         a<--1
+       répéter
+           si(n mod a=0)alors
+               cd<--cd+1
+           fsi
+               a<--a+1
+       tq(a<=n)
+         si(cd<=2)alors
+            ecrire("le nombre est paire")
+         sinon
+            ecrire("le nombre n'est pas paire")
+         fsi
+FIN

@@ -1,0 +1,15 @@
+déclaration
+		var tab[10],i:entier
+DEBUT
+	pour i<-- 0 jusqu'à 9 faire
+			ecrire("entrer un nombre")
+			lire(tab[i])
+	fpour
+    pour i<--8 jusqu'à 0 pas -1 faire
+    	tab[i-1]<--tab[i]
+	fpour
+    	tab[0]=0
+    pour i<-- 0 jusqu'à 9 faire
+			ecrire(i,tab[i])
+	fpour
+FIN

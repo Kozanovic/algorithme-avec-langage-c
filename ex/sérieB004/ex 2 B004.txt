@@ -1,0 +1,25 @@
+Déclaration
+
+              Var a, s, v:entier 
+
+DÉBUT
+    
+          Écrire ("saisir un nombre")
+    
+          Lire (a)
+    
+          S<--1
+
+              V<--2
+
+      Répéter
+ 
+          S<--s+v
+
+           V<--v+1
+
+      Tq (v<=a)
+ 
+             Ecrire ("s")
+
+FIN

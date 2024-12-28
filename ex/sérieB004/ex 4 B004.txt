@@ -1,0 +1,17 @@
+Déclaration
+            var a,max,c:entier
+DEBUT
+            Ecrire("saisir un nombre")
+            Lire(a)
+            max<--a
+            c<--0
+         Répéter
+                Ecrire("saisir un nombre")
+                Lire(a)
+           si(a>max)alors
+             max<--a
+           fsi
+              c<--c+1
+           Tq(c<9)
+                Ecrire(max)
+FIN

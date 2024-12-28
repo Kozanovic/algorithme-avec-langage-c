@@ -1,0 +1,28 @@
+Déclaration
+
+           Var a,max:entier
+DÉBUT
+ 
+          Ecrire("saisir un nombre")
+
+           Lire (a)
+ 
+          max <--a
+
+       Répéter
+ 
+          Ecrire ("saisir un nombre")
+ 
+          Lire ("a")
+ 
+   Si (a>max) alors
+ 
+               max <--a
+
+    Fsi
+
+       Tq (a< >0)
+
+           Ecrire (max "a")
+
+FIN

@@ -1,0 +1,21 @@
+Déclaration
+
+             Var a, p, v: entier
+
+DÉBUT
+ 
+          Ecrire ("saisir un nombre :")
+
+           Lire (p)
+ 
+          V<--1
+
+      pour v<--1 à 10 pas 1 faire
+ 
+	       a<--p*v
+
+               Écrire (p"*"v" ="a)
+
+
+	fpour
+FIN
